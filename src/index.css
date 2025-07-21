@@ -12,16 +12,17 @@
 
 @layer base {
   body {
-    background: linear-gradient(120deg, #f8fafc 0%, #d9eafd 50%);
-    font-family: "Manrope", sans-serif;
+    
   }
 
   main {
-    @apply flex min-h-screen min-w-screen items-center;
+    /* background: linear-gradient(120deg, #f8fafc 0%, #d9eafd 50%); */
+    font-family: "Manrope", sans-serif;
+    @apply flex min-w-screen items-center;
   }
 
   section {
-    @apply max-w-[1400px];
+    @apply max-w-[1400px] min-h-[50dvh] flex py-20;
   }
 
   span {
@@ -29,10 +30,13 @@
   }
 
   .wrapper {
-    @apply w-full h-full min-h-dvh max-h-dvh flex py-10 px-20 flex-col overflow-y-hidden;
+    @apply w-full h-full min-h-dvh max-h-dvh flex py-10 px-20 flex-col;
   }
 
   .div-wrapper {
-    @apply p-5 rounded-md border-border;
+    @apply p-5 rounded-md;
+  }
+  .hero-gradient {
+    background: linear-gradient(180deg, rgba(248, 250, 252, 0) 0%, rgba(217, 234, 253, 1) 90%)
   }
 }
