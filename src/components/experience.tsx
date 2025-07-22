@@ -2,7 +2,6 @@ import mmcmLogo from "../assets/mmcm-logo.svg";
 import chedLogo from "../assets/ched-logo.svg";
 import shopifyLogo from "../assets/react.svg"; // Placeholder, update if you have a shopify logo
 import experienceData from "../constants/const.json";
-import { Button } from "./ui/button";
 
 const imageMap: Record<string, string> = {
   "Mapua Malayan Colleges Mindanao": mmcmLogo,
