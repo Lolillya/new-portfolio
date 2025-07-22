@@ -16,11 +16,11 @@
   }
 
   header {
-  @apply fixed
+    @apply fixed
   }
 
   main {
-    /* background: linear-gradient(120deg, #f8fafc 0%, #d9eafd 50%); */
+    background: linear-gradient(180deg, #f8fafc 0%, #d9eafd 100%);
     font-family: "Manrope", sans-serif;
     @apply flex min-w-screen items-center;
   }
@@ -33,8 +33,12 @@
     @apply text-text-heading font-semibold;
   }
 
+  footer {
+    @apply w-full flex justify-center ;
+  }
+
   .wrapper {
-    @apply w-full h-full min-h-dvh max-h-dvh flex py-10 px-20 flex-col;
+    @apply w-full min-h-dvh flex py-10 px-20 flex-col;
   }
 
   .div-wrapper {
