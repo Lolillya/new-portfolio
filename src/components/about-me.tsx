@@ -3,7 +3,7 @@
 export const AboutMe = () => {
   return (
     <>
-      <section>
+      <section id="section-1">
         <div className="flex w-full items-center">
 
           <div className="w-full">

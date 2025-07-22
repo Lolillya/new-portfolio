@@ -17,7 +17,7 @@ export const Projects = () => {
   };
   return (
     <>
-      <section>
+      <section id="section-4">
         <div className="w-full flex justify-center border-b border-border py-5">
           <span className="text-6xl">Projects</span>
         </div>

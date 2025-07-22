@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 export const Hero = () => {
   return (
     <>
-      <section className="mt-50">
+      <section id="section-0" className="mt-50">
         <div className="flex gap-3 ">
           <div className="flex flex-col div-wrapper w-3/4 text-6xl gap-10">
             <span>Hello.</span>

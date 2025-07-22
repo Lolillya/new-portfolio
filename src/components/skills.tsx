@@ -1,7 +1,7 @@
 export const Skills = () => {
   return (
     <>
-      <section className="py-20">
+      <section id="section-2" className="py-20">
         <div className="flex flex-col gap-5 w-full">
           <div className="text-center mb-16 border-b border-border pb-5">
             <h2 className="text-6xl font-bold text-text-heading mb-4">Skills & Stack</h2>

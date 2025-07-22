@@ -11,6 +11,7 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
+import { Sidescroll } from "./components/sidescroll";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 function App() {
@@ -30,8 +31,9 @@ function App() {
     <>
       <Header />
       <div id="smooth-wrapper">
+        <Sidescroll />
         <main id="smooth-content" className="wrapper">
-          <img src={heroBg} alt="hero" className="absolute inset-0 w-screen h-screen object-cover -z-10" />
+          {/* <img src={heroBg} alt="hero" className="absolute inset-0 w-screen h-screen object-cover -z-10" /> */}
           <div className="absolute inset-0 h-screen -z-10 pointer-events-none hero-gradient" />
           {/* Background fade overlay */}
           <div className="absolute inset-x-0 top-[40vh] bottom-0 z-10 pointer-events-none bg-gradient-to-b from-transparent to-[var(--base-white)]" />

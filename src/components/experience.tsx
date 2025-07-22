@@ -14,7 +14,7 @@ export const Experience = () => {
   const experience = experienceData.experience;
   return (
     <>
-      <section className="flex flex-col">
+      <section id="section-3" className="flex flex-col">
         <div className="flex justify-center border-b border-border py-5">
           <span className="text-6xl">Experience</span>
         </div>
