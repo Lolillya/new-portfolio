@@ -2,7 +2,7 @@ export const Skills = () => {
   return (
     <>
       <section className="py-20">
-        <div className="max-w-6xl mx-auto flex flex-col gap-5">
+        <div className="flex flex-col gap-5 w-full">
           <div className="text-center mb-16">
             <h2 className="text-6xl font-bold text-text-heading mb-4">Skills & Stack</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -10,9 +10,9 @@ export const Skills = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="flex gap-4">
             {/* Frontend */}
-            <div className="group py-10 px-14 bg-surface/40 backdrop-blur-sm rounded-xl border border-border shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
+            <div className="group py-10 w-full px-14 bg-surface/40 backdrop-blur-sm rounded-xl border border-border shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-text-heading">Frontend</h3>
               </div>
@@ -57,7 +57,7 @@ export const Skills = () => {
             </div>
 
             {/* Backend */}
-            <div className="group py-10 px-14 bg-surface/40 backdrop-blur-sm rounded-xl border border-border shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
+            <div className="w-full group py-10 px-14 bg-surface/40 backdrop-blur-sm rounded-xl border border-border shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-text-heading">Backend</h3>
               </div>
@@ -111,7 +111,7 @@ export const Skills = () => {
             </div>
 
             {/* Others */}
-            <div className="group py-10 px-14 bg-surface/40 backdrop-blur-sm rounded-xl border border-border shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
+            <div className="w-full group py-10 px-14 bg-surface/40 backdrop-blur-sm rounded-xl border border-border shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-text-heading">Tools</h3>
               </div>
@@ -142,7 +142,7 @@ export const Skills = () => {
                     alt="Neovim"
                     title="Neovim"
                   />
-                  </div>
+                </div>
                 <div className="flex items-center justify-between p-3 bg-white/40 rounded-lg hover:bg-white/40 transition-colors">
                   <span className="font-medium">Postman</span>
                   <img

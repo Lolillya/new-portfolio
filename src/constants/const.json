@@ -1,0 +1,76 @@
+{
+  "me": [
+    {
+      "name": "Jerald Dagaang",
+      "role": "Full Stack Developer",
+      "desc": "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "resume": "https://drive.google.com/file/d/1-0000000000000000000000000000000000000000/view?usp=sharing",
+      "linkedin": "https://www.linkedin.com/in/jerald-dagaang-0000000000/",
+      "github": "https://github.com/jerald-dagaang",
+      "facebook": "https://www.facebook.com/jerald.dagaang.5",
+      "whatsapp": "https://wa.me/0000000000000000000000000000000000000000"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project 1",
+      "desc": "Project 1 description",
+      "stack": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "link": "https://www.google.com",
+      "github": "https://github.com/jerald-dagaang/project-1"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Mapua Malayan Colleges Mindanao",
+      "role": "Full-Stack Developer",
+      "desc": "Led a team to develop a booking system for Mapua Malayan Colleges Mindanao, digitalizing the process for students and faculty to easily reserve campus facilities. This system streamlined bookings, improving accessibility and efficiency for the university's operations.",
+      "img": "../assets/mmcm-logo.svg",
+      "stack": [
+        "React.js",
+        "Styled Components",
+        "Node.js",
+        "Express.js",
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "company": "CHED",
+      "role": "Frontend Developer",
+      "desc": "The CHEDx2.O Event Website is a platform created to support the CHEDx2.O IT Education Summit, a national event that brings together schools, industries, and the government to improve IT education.",
+      "img": "@/assets/ched-logo.svg",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "GSAP",
+        "ShadCN",
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "company": "Self-Employed",
+      "role": "Freelance Shopify Developer",
+      "desc": "Developed a E-commerece website for a toy company in New Zealand using Shopify.",
+      "img": "@/assets/shopify-logo.svg",
+      "stack": [
+        "Liquid Shopify",
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ]
+}
