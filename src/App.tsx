@@ -1,7 +1,6 @@
 import { Header } from "@/components/header";
 import "./index.css";
 import { Hero } from "./components/hero";
-import heroBg from "@/assets/hero-bg.jpg";
 import { Skills } from "./components/skills";
 import { AboutMe } from "./components/about-me";
 import { Experience } from "./components/experience";
