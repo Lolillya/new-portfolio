@@ -3,7 +3,7 @@ export const Skills = () => {
     <>
       <section className="py-20">
         <div className="flex flex-col gap-5 w-full">
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 border-b border-border pb-5">
             <h2 className="text-6xl font-bold text-text-heading mb-4">Skills & Stack</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Technologies and tools I use to bring ideas to life
@@ -12,7 +12,7 @@ export const Skills = () => {
 
           <div className="flex gap-4">
             {/* Frontend */}
-            <div className="group py-10 w-full px-14 bg-surface/40 backdrop-blur-sm rounded-xl border border-border shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
+            <div className="group py-10 w-full px-14 bg-base-white/40 backdrop-blur-sm rounded-xl border border-border shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-text-heading">Frontend</h3>
               </div>
@@ -57,7 +57,7 @@ export const Skills = () => {
             </div>
 
             {/* Backend */}
-            <div className="w-full group py-10 px-14 bg-surface/40 backdrop-blur-sm rounded-xl border border-border shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
+            <div className="w-full group py-10 px-14 bg-base-white/40 backdrop-blur-sm rounded-xl border border-border shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-text-heading">Backend</h3>
               </div>
@@ -111,7 +111,7 @@ export const Skills = () => {
             </div>
 
             {/* Others */}
-            <div className="w-full group py-10 px-14 bg-surface/40 backdrop-blur-sm rounded-xl border border-border shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
+            <div className="w-full group py-10 px-14 bg-base-white/40 backdrop-blur-sm rounded-xl border border-border shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-text-heading">Tools</h3>
               </div>
@@ -165,7 +165,7 @@ export const Skills = () => {
             </div>
           </div>
 
-          <div className="border border-border bg-surface/40 backdrop-blur-sm rounded-md shadow-lg p-10 flex flex-col gap-5 hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
+          <div className="border border-border bg-base-white/40 backdrop-blur-sm rounded-md shadow-lg p-10 flex flex-col gap-5 hover:shadow-xl transition-all duration-400 hover:-translate-y-2">
             <div className="flex justify-center">
               <span className="text-2xl">Others</span>
             </div>

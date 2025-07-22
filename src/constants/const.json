@@ -13,16 +13,71 @@
   ],
   "projects": [
     {
-      "name": "Project 1",
-      "desc": "Project 1 description",
+      "name": "Chedx Website",
+      "desc": "CHEDx is a series of IT summits organized by the Commission on Higher Education (CHED) in the Philippines, in partnership with Asia Pacific College (APC). These events aim to bridge the gap between academia and the IT industry, fostering collaboration and ensuring graduates are equipped with the skills needed for the evolving digital landscape",
+      "img": "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ethereum.png",
       "stack": [
         "React",
+        "Vite",
+        "Tailwind CSS",
+        "TypeScript",
+        "ShadCN",
+        "GSAP"
+      ],
+      "link": "https://www.google.com",
+      "github": "https://github.com/jerald-dagaang/project-1"
+    },
+    {
+      "name": "Prison Coin",
+      "desc": "PrisonCoin is a permissioned blockchain-based digital currency system tailored for use within correctional facilities. It enables a secure, accountable, and transparent financial environment for inmates, reducing risks associated with contraband trade and manual accounting.",
+      "img": "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ethereum.png",
+      "stack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "TypeScript",
+        ".Net Core",
+        "C#",
+        "Ganache",
+        "Solidity",
+        "Hardhat",
+        "Docker"
+      ],
+      "link": "https://www.google.com",
+      "github": "https://github.com/jerald-dagaang/project-1"
+    },
+    {
+      "name": "Multimodal Banana Panama Disease Detection System",
+      "desc": "This project aims to build a scalable, modular system for detecting Panama disease in banana plants using a combination of IoT sensors, edge computing, and image-based disease classification. It includes a web application, a mobile app, and integrated backend services.",
+      "img": "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ethereum.png",
+      "stack": [
+        "Vite React",
+        "React Native",
+        "Tailwind CSS",
+        "TypeScript",
+        ".Net Core",
+        "C#",
+        "Python",
+        "Ganache",
+        "Solidity",
+        "Hardhat",
+        "Docker",
+        "Raspberry Pi 4"
+      ],
+      "link": "https://www.google.com",
+      "github": "https://github.com/jerald-dagaang/project-1"
+    },
+    {
+      "name": "Prince School Supplies Inventory System",
+      "desc": "This project aims to build a scalable, modular system for detecting Panama disease in banana plants using a combination of IoT sensors, edge computing, and image-based disease classification. It includes a web application, a mobile app, and integrated backend services.",
+      "img": "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ethereum.png",
+      "stack": [
         "Next.js",
         "Tailwind CSS",
         "TypeScript",
-        "Node.js",
-        "Express",
-        "MongoDB"
+        "PostgreSQL",
+        "Prisma ORM",
+        "TRPc"
       ],
       "link": "https://www.google.com",
       "github": "https://github.com/jerald-dagaang/project-1"
@@ -69,7 +124,8 @@
         "Liquid Shopify",
         "HTML",
         "CSS",
-        "Javascript"
+        "Javascript",
+        "TypeScript"
       ]
     }
   ]

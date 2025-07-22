@@ -12,21 +12,22 @@
 
 @layer base {
   body {
-    @apply bg-surface;
+    background: linear-gradient(180deg, #d9eafd 30%, #f8fafc 100%);
+    /* @apply bg-surface; */
   }
 
   header {
-    @apply fixed
+    @apply fixed;
   }
 
   main {
-    background: linear-gradient(180deg, #f8fafc 0%, #d9eafd 100%);
+    /* background: linear-gradient(180deg, #f8fafc 0%, #d9eafd 100%); */
     font-family: "Manrope", sans-serif;
     @apply flex min-w-screen items-center;
   }
 
   section {
-    @apply max-w-[1200px] w-full max-h-max flex py-30;
+    @apply max-w-[1200px] w-full max-h-max flex py-30 flex-col;
   }
 
   span {
@@ -34,7 +35,7 @@
   }
 
   footer {
-    @apply w-full flex justify-center ;
+    @apply w-full flex justify-center;
   }
 
   .wrapper {
@@ -45,6 +46,6 @@
     @apply p-5 rounded-md;
   }
   .hero-gradient {
-    background: linear-gradient(180deg, rgba(248, 250, 252, 0) 0%, rgba(217, 234, 253, 1) 90%)
+    background: linear-gradient(180deg, rgba(248, 250, 252, 0.9) 0%, rgba(217, 234, 253, 1) 90%);
   }
 }

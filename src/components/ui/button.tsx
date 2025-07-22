@@ -12,6 +12,6 @@ export const Button = ({ style, className, children }: ButtonProps) => {
     styleClass = "bg-white/30 text-black";
   }
   return (
-    <button className={`${styleClass} ${className ?? ""}py-4 px-10 backdrop-blur-sm rounded-md border-border cursor-pointer shadow-md text-lg`}>{children}</button>
+    <button className={`${styleClass} ${className ?? ""}py-4 px-10 backdrop-blur-sm rounded-md border-border cursor-pointer shadow-md text-lg hover:shadow-lg transition-all duration-300 hover:-translate-y-2`}>{children}</button>
   );
 };
