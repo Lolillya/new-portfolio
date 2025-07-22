@@ -5,15 +5,15 @@ export const Hero = () => {
     <>
       <section className="mt-50">
         <div className="flex gap-3 ">
-          <div className="flex flex-col div-wrapper w-3/4 text-6xl">
-            <span>Hello, I am</span>
-            <span>Jerald Dagaang</span>
-            <span>I am a Fullstack Developer</span>
+          <div className="flex flex-col div-wrapper w-3/4 text-6xl gap-10">
+            <span>Hello.</span>
+            <span className="font-thin text-4xl">-----------I'm Jerald</span>
+            <span className="font-light text-3xl">Fullstack Developer</span>
           </div>
 
-          <div className="flex flex-col justify-between w-full div-wrapper gap-5">
+          <div className="flex flex-col justify-between w-full div-wrapper gap-20">
             <div className="">
-              <p className="text-4xl font-thin">
+              <p className="text-2xl font-thin">
                 I am a motivated and versatile individual, always eager to take on new challenges.
                 With a passion for learning, I am dedicated to delivering high-quality results.
                 With a positive attitude and a growth mindset, I am ready to make a meaningful
@@ -21,7 +21,7 @@ export const Hero = () => {
               </p>
             </div>
 
-            <div className="flex gap-3">
+            <div className="flex gap-10">
               <Button style="1">Check Resume</Button>
               <Button style="2">LinkedIn</Button>
             </div>

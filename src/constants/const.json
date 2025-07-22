@@ -144,7 +144,7 @@
     {
       "company": "Self-Employed",
       "role": "Freelance Shopify Developer",
-      "desc": "Developed a E-commerece website for a toy company in New Zealand using Shopify.",
+      "desc": "Developed Shopify e-commerce websites for PopStop (New Zealand), a store for pop culture collectibles, and Closeout Connection (New York, USA), a luxury homeware retailer. Built responsive, SEO-optimized storefronts with secure payments, intuitive navigation, and custom product features to enhance user experience and drive conversions.",
       "img": "@/assets/shopify-logo.svg",
       "stack": [
         "Liquid Shopify",

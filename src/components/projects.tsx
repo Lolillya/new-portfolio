@@ -1,5 +1,4 @@
 import projectsData from "../constants/const.json";
-import { Button } from "./ui/button";
 import chedxLogo from '../assets/chedx-logo.svg';
 import infectino from '../assets/infectino.png';
 import prince from '../assets/prince.svg';
@@ -22,22 +21,22 @@ export const Projects = () => {
         <div className="w-full flex justify-center border-b border-border py-5">
           <span className="text-6xl">Projects</span>
         </div>
-        <div className="py-10 flex flex-col gap-8">
+        <div className="py-10 flex flex-col gap-10">
           {projects.map((project) => (
-            <div className="flex gap-4 justify-between py-5 border-b border-border rounded-md" key={project.name}>
-              <div>
+            <div className="flex gap-4 justify-between border-b border-border rounded-md" key={project.name}>
+              <div className="flex mx-auto h-[20rem]">
                 {/* <div className="bg-gray-400 w-[30rem] h-[30rem] flex items-center justify-center rounded-md"> */}
-                  <img 
-                    src={
-                      typeof project.img === 'string' && imageMap[project.img.split('/').pop() as string]
-                        ? imageMap[project.img.split('/').pop() as string]
-                        : project.img
-                    } 
-                    alt={project.name} 
-                    width={300} 
-                    className="object-contain rounded-md" 
-                  />
-                  {/* Optionally add an image here if available */}
+                <img
+                  src={
+                    typeof project.img === 'string' && imageMap[project.img.split('/').pop() as string]
+                      ? imageMap[project.img.split('/').pop() as string]
+                      : project.img
+                  }
+                  alt={project.name}
+                  width={300}
+                  className="object-contain rounded-md"
+                />
+                {/* Optionally add an image here if available */}
                 {/* </div> */}
               </div>
               <div className="flex flex-col gap-2 max-w-[40rem]">
@@ -50,10 +49,10 @@ export const Projects = () => {
                     ))}
                   </ul>
                 </div>
-                <div className="flex gap-4 mt-2">
-                  <Button style="1">Live</Button>
-                  <Button style="2">GitHub</Button>
-                </div>
+                {/* <div className="flex gap-4 mt-2"> */}
+                {/*   <Button style="1">Live</Button> */}
+                {/*   <Button style="2">GitHub</Button> */}
+                {/* </div> */}
               </div>
             </div>
           ))}

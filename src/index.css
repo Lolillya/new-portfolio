@@ -27,7 +27,7 @@
   }
 
   section {
-    @apply max-w-[1200px] w-full max-h-max flex py-30 flex-col;
+    @apply max-w-[1200px] w-full min-h-[80vh] flex py-30 flex-col;
   }
 
   span {
