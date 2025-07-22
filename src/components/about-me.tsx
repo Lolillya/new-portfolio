@@ -22,7 +22,7 @@ export const AboutMe = () => {
             <span className="text-6xl border-b border-border">About Me</span>
 
             <div>
-              <p>I'm a passionate web developer with over 5 years of coding experience and a deep love for software engineering. I enjoy building clean, functional, and user-friendly web applications, and I'm constantly exploring new technologies to expand my skill set. Currently, I'm also diving into the world of blockchain development, driven by a strong interest in decentralized technologies and their potential to reshape the digital landscape. Whether it's crafting sleek front-end interfaces or exploring smart contracts, I'm always excited to learn, build, and push the limits of what software can do.</p>
+              <p className="text-2xl text-justify">I'm a passionate web developer with over 5 years of coding experience and a deep love for software engineering. I enjoy building clean, functional, and user-friendly web applications, and I'm constantly exploring new technologies to expand my skill set. Currently, I'm also diving into the world of blockchain development, driven by a strong interest in decentralized technologies and their potential to reshape the digital landscape. Whether it's crafting sleek front-end interfaces or exploring smart contracts, I'm always excited to learn, build, and push the limits of what software can do.</p>
             </div>
           </div>
         </div>

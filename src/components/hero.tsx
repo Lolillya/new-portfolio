@@ -1,4 +1,4 @@
-import { Button } from "./ui/button"
+import { Button } from "./ui/button";
 
 export const Hero = () => {
   return (
@@ -11,24 +11,16 @@ export const Hero = () => {
             <span className="font-light text-3xl">Fullstack Developer</span>
           </div>
 
-          <div className="flex flex-col justify-between w-full div-wrapper gap-20">
-            <div className="">
-              <p className="text-2xl font-thin">
-                I am a motivated and versatile individual, always eager to take on new challenges.
-                With a passion for learning, I am dedicated to delivering high-quality results.
-                With a positive attitude and a growth mindset, I am ready to make a meaningful
-                contribution and achieve great things.
-              </p>
-            </div>
+          <div className="flex flex-col justify-center items-center w-full div-wrapper">
+            <p className="text-2xl font-thin text-justify">
+              I am a motivated and versatile individual, always eager to take on new challenges. With a passion for
+              learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth
+              mindset, I am ready to make a meaningful contribution and achieve great things.
+            </p>
 
-            <div className="flex gap-10">
-              <Button style="1">Check Resume</Button>
-              <Button style="2">LinkedIn</Button>
-            </div>
           </div>
         </div>
       </section>
-
     </>
-  )
-}
+  );
+};
