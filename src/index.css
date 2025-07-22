@@ -12,7 +12,11 @@
 
 @layer base {
   body {
-    
+    @apply bg-surface;
+  }
+
+  header {
+  @apply fixed
   }
 
   main {
@@ -22,7 +26,7 @@
   }
 
   section {
-    @apply max-w-[1400px] min-h-[50dvh] flex py-20;
+    @apply max-w-[1400px] max-h-max flex py-30;
   }
 
   span {

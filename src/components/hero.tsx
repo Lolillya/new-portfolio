@@ -11,7 +11,7 @@ export const Hero = () => {
             <span>I am a Fullstack Developer</span>
           </div>
 
-          <div className="flex flex-col justify-between w-full div-wrapper">
+          <div className="flex flex-col justify-between w-full div-wrapper gap-5">
             <div className="">
               <p className="text-4xl font-thin">
                 I am a motivated and versatile individual, always eager to take on new challenges.
