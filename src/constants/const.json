@@ -14,7 +14,7 @@
   "projects": [
     {
       "name": "Chedx Website",
-      "desc": "CHEDx is a series of IT summits organized by the Commission on Higher Education (CHED) in the Philippines, in partnership with Asia Pacific College (APC). These events aim to bridge the gap between academia and the IT industry, fostering collaboration and ensuring graduates are equipped with the skills needed for the evolving digital landscape",
+      "desc": "The CHEDx2.O Event Website was developed to support CHEDx, a national IT education summit series organized by the Commission on Higher Education (CHED). These events aim to bridge the gap between academia and the IT industry by promoting collaboration and aligning education with industry needs. The website served as the central platform for attendees to access key event information, including the event program, detailed schedule, speaker lineup, and online registration.",
       "img": "../assets/chedx-logo.svg",
       "stack": [
         "React",
@@ -69,7 +69,7 @@
     },
     {
       "name": "Prince School Supplies Inventory System",
-      "desc": "This project aims to build a scalable, modular system for detecting Panama disease in banana plants using a combination of IoT sensors, edge computing, and image-based disease classification. It includes a web application, a mobile app, and integrated backend services.",
+      "desc": "Designed and developed a custom inventory management system to replace the company’s outdated, manual processes. The system streamlined operations by automating invoice tracking, managing supplier inventory levels, and providing the admin with actionable business analytics—all integrated into a centralized database.",
       "img": "../assets/prince.svg",
       "stack": [
         "Next.js",
@@ -84,27 +84,17 @@
     },
     {
       "name": "Closeout Connection",
-      "desc": "Closeout Connection is a New York-based online store specializing in luxury, elegant homeware. We offer curated, high-quality housewares—from timeless décor to functional essentials—at exclusive closeout prices.",
+      "desc": "Developed and maintained Closeout Connection, a New York-based eCommerce store specializing in luxury homeware. Built using Shopify Liquid to deliver a high-quality, elegant shopping experience with curated products at exclusive closeout prices.",
       "img": "../assets/closeout-connection.svg",
-      "stack": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Liquid Shopify"
-      ],
+      "stack": ["HTML", "CSS", "Javascript", "Liquid Shopify"],
       "link": "https://www.google.com",
       "github": "https://github.com/jerald-dagaang/project-1"
     },
     {
       "name": "PopStop E-Commerce Website",
-      "desc": "PopStop is a New Zealand-based online store where fans can buy and sell pop culture collectibles. Explore a wide selection of Pop Vinyl figures, collectible and premium action figures, and board games—all in one place.",
+      "desc": "Built and maintained PopStop, a New Zealand-based Shopify eCommerce store for pop culture collectibles. Used Shopify Liquid to create a dynamic shopping experience featuring Pop Vinyl figures, action figures, board games, comics, and more.",
       "img": "../assets/popstop-logo.svg",
-      "stack": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Liquid Shopify"
-      ],
+      "stack": ["HTML", "CSS", "Javascript", "Liquid Shopify"],
       "link": "https://www.google.com",
       "github": "https://github.com/jerald-dagaang/project-1"
     }
@@ -146,13 +136,7 @@
       "role": "Freelance Shopify Developer",
       "desc": "Developed Shopify e-commerce websites for PopStop (New Zealand), a store for pop culture collectibles, and Closeout Connection (New York, USA), a luxury homeware retailer. Built responsive, SEO-optimized storefronts with secure payments, intuitive navigation, and custom product features to enhance user experience and drive conversions.",
       "img": "@/assets/shopify-logo.svg",
-      "stack": [
-        "Liquid Shopify",
-        "HTML",
-        "CSS",
-        "Javascript",
-        "TypeScript"
-      ]
+      "stack": ["Liquid Shopify", "HTML", "CSS", "Javascript", "TypeScript"]
     }
   ]
 }
