@@ -87,6 +87,14 @@
       "stack": ["HTML", "CSS", "Javascript", "Liquid Shopify"],
       "link": "https://www.google.com",
       "github": "https://github.com/jerald-dagaang/project-1"
+    },
+    {
+      "name": "PeelHealth",
+      "desc": "Developed PeelHealth, a Flutter mobile app using YOLO for detecting banana diseases, handling both frontend and backend development, and collaborating with the client through weekly feedback sessions to ensure seamless functionality and user experience.",
+      "img": "../assets/peel-health.png",
+      "stack": ["HTML", "CSS", "Javascript", "Liquid Shopify"],
+      "link": "https://www.google.com",
+      "github": "https://github.com/jerald-dagaang/project-1"
     }
   ],
   "experience": [

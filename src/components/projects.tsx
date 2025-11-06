@@ -4,6 +4,7 @@ import infectino from '../assets/infectino.png';
 import prince from '../assets/prince.svg';
 import closeout from '../assets/closeout-connection.svg';
 import popstop from '../assets/popstop-logo.svg';
+import peelHealth from '../assets/peel-health.png';
 
 export const Projects = () => {
   const projects = projectsData.projects;
@@ -13,6 +14,7 @@ export const Projects = () => {
     'prince.svg': prince,
     'closeout-connection.svg': closeout,
     'popstop-logo.svg': popstop,
+    'peel-health.png': peelHealth,
   };
   return (
     <>
