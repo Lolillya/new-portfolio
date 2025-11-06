@@ -36,7 +36,7 @@ export const Experience = () => {
                       <ul className="flex gap-5">
                         {exp.stack.map((tech: string) => (
                           <li
-                            className="bg-surface shadow-md p-2 rounded-full text-xs"
+                            className="bg-surface shadow-md p-2 rounded-full text-xs text-nowrap"
                             key={tech}
                           >
                             {tech}

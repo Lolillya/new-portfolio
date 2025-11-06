@@ -16,14 +16,7 @@
       "name": "Chedx Website",
       "desc": "The CHEDx2.O Event Website was developed to support CHEDx, a national IT education summit series organized by the Commission on Higher Education (CHED). These events aim to bridge the gap between academia and the IT industry by promoting collaboration and aligning education with industry needs. The website served as the central platform for attendees to access key event information, including the event program, detailed schedule, speaker lineup, and online registration.",
       "img": "../assets/chedx-logo.svg",
-      "stack": [
-        "React",
-        "Vite",
-        "Tailwind CSS",
-        "TypeScript",
-        "ShadCN",
-        "GSAP"
-      ],
+      "stack": ["Vite React", "Tailwind CSS", "TypeScript", "ShadCN", "GSAP"],
       "link": "https://www.google.com",
       "github": "https://github.com/jerald-dagaang/project-1"
     },
@@ -32,8 +25,7 @@
       "desc": "PrisonCoin is a permissioned blockchain-based digital currency system tailored for use within correctional facilities. It enables a secure, accountable, and transparent financial environment for inmates, reducing risks associated with contraband trade and manual accounting.",
       "img": "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ethereum.png",
       "stack": [
-        "React",
-        "Vite",
+        "Vite React",
         "Tailwind CSS",
         "TypeScript",
         ".Net Core",
@@ -54,13 +46,12 @@
         "Vite React",
         "React Native",
         "Tailwind CSS",
+        "Nativewind CSS",
         "TypeScript",
         ".Net Core",
         "C#",
+        "Google Maps API",
         "Python",
-        "Ganache",
-        "Solidity",
-        "Hardhat",
         "Docker",
         "Raspberry Pi 4"
       ],
@@ -76,8 +67,7 @@
         "Tailwind CSS",
         "TypeScript",
         "PostgreSQL",
-        "Prisma ORM",
-        "TRPc"
+        "Prisma ORM"
       ],
       "link": "https://www.google.com",
       "github": "https://github.com/jerald-dagaang/project-1"
