@@ -33,7 +33,7 @@ export const Experience = () => {
                   <div className="flex flex-col gap-2">
                     <h4 className="text-lg font-semibold">{exp.role}</h4>
                     <div>
-                      <ul className="flex gap-5">
+                      <ul className="flex gap-5 flex-wrap">
                         {exp.stack.map((tech: string) => (
                           <li
                             className="bg-surface shadow-md p-2 rounded-full text-xs text-nowrap"
@@ -61,7 +61,7 @@ export const Experience = () => {
                   <div className="flex flex-col gap-2">
                     <h4 className="text-lg font-semibold">{exp.role}</h4>
                     <div>
-                      <ul className="flex gap-5">
+                      <ul className="flex gap-5 flex-wrap">
                         {exp.stack.map((tech: string) => (
                           <li
                             className="bg-surface shadow-md p-2 rounded-full text-xs"
