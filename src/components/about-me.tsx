@@ -13,6 +13,18 @@ export const AboutMe = () => {
             <div className="border-l-2 border-border p-5 ml-2 my-2">
               <span className="text-2xl">Blockchain Developer</span>
             </div>
+
+            <div className="w-5 h-5 bg-base-white rounded-full shadow-md" />
+
+            <div className="border-l-2 border-border p-5 ml-2 my-2">
+              <span className="text-2xl">Mobile Developer</span>
+            </div>
+
+            <div className="w-5 h-5 bg-base-white rounded-full shadow-md" />
+
+            <div className="border-l-2 border-border p-5 ml-2 my-2">
+              <span className="text-2xl">Fullstack Developer</span>
+            </div>
           </div>
 
           <div className="w-full flex flex-col gap-5">
