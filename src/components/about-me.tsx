@@ -5,30 +5,32 @@ export const AboutMe = () => {
         <div className="flex w-full items-center">
           <div className="w-full">
             <div className="border-l-2 border-border p-5 ml-2 my-2">
-              <span className="text-2xl">Web Developer</span>
+              <span className="text-2xl font-header">Web Developer</span>
             </div>
 
             <div className="w-5 h-5 bg-base-white rounded-full shadow-md" />
 
             <div className="border-l-2 border-border p-5 ml-2 my-2">
-              <span className="text-2xl">Blockchain Developer</span>
+              <span className="text-2xl font-header">Blockchain Developer</span>
             </div>
 
             <div className="w-5 h-5 bg-base-white rounded-full shadow-md" />
 
             <div className="border-l-2 border-border p-5 ml-2 my-2">
-              <span className="text-2xl">Mobile Developer</span>
+              <span className="text-2xl font-header">Mobile Developer</span>
             </div>
 
             <div className="w-5 h-5 bg-base-white rounded-full shadow-md" />
 
             <div className="border-l-2 border-border p-5 ml-2 my-2">
-              <span className="text-2xl">Fullstack Developer</span>
+              <span className="text-2xl font-header">Fullstack Developer</span>
             </div>
           </div>
 
           <div className="w-full flex flex-col gap-5">
-            <span className="text-6xl border-b border-border">About Me</span>
+            <span className="text-6xl border-b border-border font-header">
+              About Me
+            </span>
 
             <div>
               <p className="text-2xl text-justify">

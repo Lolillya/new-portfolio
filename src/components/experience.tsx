@@ -15,7 +15,7 @@ export const Experience = () => {
     <>
       <section id="section-3" className="flex flex-col">
         <div className="flex justify-center border-b border-border py-5">
-          <span className="text-6xl">Experience</span>
+          <h1 className="text-6xl">Experience</h1>
         </div>
         {experience.map((exp, idx) =>
           idx % 2 === 0 ? (
@@ -29,9 +29,9 @@ export const Experience = () => {
               </div>
               <div className="flex flex-col justify-evenly flex-1 max-w-[40rem] text-justify">
                 <div className="flex flex-col gap-2 justify-evenly">
-                  <span className="text-4xl">{exp.company}</span>
+                  <h3 className="text-4xl">{exp.company}</h3>
                   <div className="flex flex-col gap-2">
-                    <span className="text-lg font-semibold">{exp.role}</span>
+                    <h4 className="text-lg font-semibold">{exp.role}</h4>
                     <div>
                       <ul className="flex gap-5">
                         {exp.stack.map((tech: string) => (
@@ -57,9 +57,9 @@ export const Experience = () => {
             <div className="flex gap-4 py-10 justify-between" key={exp.company}>
               <div className="flex flex-col justify-evenly flex-1 max-w-[40rem] text-justify">
                 <div className="flex flex-col gap-2">
-                  <span className="text-4xl">{exp.company}</span>
+                  <h3 className="text-4xl">{exp.company}</h3>
                   <div className="flex flex-col gap-2">
-                    <span className="text-lg font-semibold">{exp.role}</span>
+                    <h4 className="text-lg font-semibold">{exp.role}</h4>
                     <div>
                       <ul className="flex gap-5">
                         {exp.stack.map((tech: string) => (
