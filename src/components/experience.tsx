@@ -17,13 +17,25 @@ export const Experience = () => {
         <div className="flex justify-center border-b border-border py-5">
           <h1 className="text-6xl">Experience</h1>
         </div>
-        {experience.map((exp, idx) =>
-          idx % 2 === 0 ? (
-            <div className="flex gap-4 py-10 justify-between" key={exp.company}>
+        {experience.map((exp, idx) => {
+          // Prefer role-based selection when multiple entries share the same company name
+          const role = (exp.role || '').toLowerCase();
+          const company = exp.company;
+          const imgSrc = role.includes('shopify')
+            ? shopifyLogo
+            : role.includes('game') || role.includes('backend')
+            ? ReactLogo
+            : imageMap[company] || ReactLogo;
+
+          return idx % 2 === 0 ? (
+            <div
+              className="flex gap-4 py-10 justify-between"
+              key={`${company}-${idx}`}
+            >
               <div className="flex justify-center items-center w-full max-w-[20rem]">
                 <img
-                  src={imageMap[exp.company]}
-                  alt={exp.company}
+                  src={imgSrc}
+                  alt={company}
                   className="w-full h-auto object-contain rounded-md"
                 />
               </div>
@@ -54,7 +66,10 @@ export const Experience = () => {
               </div>
             </div>
           ) : (
-            <div className="flex gap-4 py-10 justify-between" key={exp.company}>
+            <div
+              className="flex gap-4 py-10 justify-between"
+              key={`${company}-${idx}`}
+            >
               <div className="flex flex-col justify-evenly flex-1 max-w-[40rem] text-justify">
                 <div className="flex flex-col gap-2">
                   <h3 className="text-4xl">{exp.company}</h3>
@@ -81,14 +96,14 @@ export const Experience = () => {
               </div>
               <div className="flex justify-center items-center w-full max-w-[20rem]">
                 <img
-                  src={imageMap[exp.company]}
-                  alt={exp.company}
+                  src={imgSrc}
+                  alt={company}
                   className="w-full h-auto object-contain rounded-md"
                 />
               </div>
             </div>
-          ),
-        )}
+          );
+        })}
       </section>
     </>
   );

@@ -142,6 +142,22 @@
       "desc": "Developed Shopify e-commerce websites for PopStop (New Zealand), a pop culture collectibles store, and Closeout Connection (New York, USA), a luxury homeware retailer. Delivered responsive, SEO-optimized storefronts featuring intuitive navigation, and custom product functionality to enhance user experience and drive conversions.",
       "img": "@/assets/shopify-logo.svg",
       "stack": ["Liquid Shopify", "HTML", "CSS", "Javascript", "TypeScript"]
+    },
+
+    {
+      "company": "Freelance",
+      "role": "Backend Game Developer",
+      "desc": "Developed a Web3 RPG game leveraging blockchain technology, built with NestJS, TypeScript, Prisma ORM, Docker, and tested via Postman, delivering a decentralized gaming experience with secure and scalable architecture.",
+      "img": "@/assets/react.svg",
+      "stack": [
+        "Nest.js",
+        "TypeScript",
+        "Prisma ORM",
+        "Postman",
+        "Docker",
+        "PostgreSQL",
+        "Vitest"
+      ]
     }
   ]
 }
