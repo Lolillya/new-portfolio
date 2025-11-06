@@ -3,7 +3,7 @@
     {
       "name": "Jerald Dagaang",
       "role": "Full Stack Developer",
-      "desc": "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "desc": "CHEDx2.O Event Website: A platform developed to support the CHEDx2.O IT Education Summit, a national initiative connecting schools, industry, and government to advance IT education and foster collaboration.",
       "resume": "https://drive.google.com/file/d/1-0000000000000000000000000000000000000000/view?usp=sharing",
       "linkedin": "https://www.linkedin.com/in/jerald-dagaang-83266624b/",
       "github": "https://github.com/Lolillya",
@@ -101,40 +101,40 @@
   ],
   "experience": [
     {
-      "company": "Mapua Malayan Colleges Mindanao",
-      "role": "Full-Stack Developer",
-      "desc": "Led a team to develop a booking system for Mapua Malayan Colleges Mindanao, digitalizing the process for students and faculty to easily reserve campus facilities. This system streamlined bookings, improving accessibility and efficiency for the university's operations.",
-      "img": "../assets/mmcm-logo.svg",
-      "stack": [
-        "React.js",
-        "Styled Components",
-        "Node.js",
-        "Express.js",
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
-    },
-    {
       "company": "CHED",
       "role": "Frontend Developer",
       "desc": "The CHEDx2.O Event Website is a platform created to support the CHEDx2.O IT Education Summit, a national event that brings together schools, industries, and the government to improve IT education.",
       "img": "@/assets/ched-logo.svg",
       "stack": [
-        "Next.js",
+        "Vite React",
+        "Javascript",
         "TypeScript",
-        "Tailwind CSS",
-        "GSAP",
-        "ShadCN",
         "HTML",
         "CSS",
-        "Javascript"
+        "Tailwind CSS",
+        "GSAP",
+        "ShadCN"
       ]
     },
     {
-      "company": "Self-Employed",
-      "role": "Freelance Shopify Developer",
-      "desc": "Developed Shopify e-commerce websites for PopStop (New Zealand), a store for pop culture collectibles, and Closeout Connection (New York, USA), a luxury homeware retailer. Built responsive, SEO-optimized storefronts with secure payments, intuitive navigation, and custom product features to enhance user experience and drive conversions.",
+      "company": "Contractual Developer",
+      "role": "Fullstack Developer",
+      "desc": "Led a team of 5 developers to build a custom inventory management system, automating invoice tracking, supplier management, and data centralization, while delivering analytics tools to support data-driven decision-making and improve operational efficiency.",
+      "img": "@/assets/react.svg",
+      "stack": [
+        "Next.js",
+        "Javascript",
+        "TypeScript",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Prisma ORM",
+        "Supabase"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "role": "Shopify Developer",
+      "desc": "Developed Shopify e-commerce websites for PopStop (New Zealand), a pop culture collectibles store, and Closeout Connection (New York, USA), a luxury homeware retailer. Delivered responsive, SEO-optimized storefronts featuring intuitive navigation, and custom product functionality to enhance user experience and drive conversions.",
       "img": "@/assets/shopify-logo.svg",
       "stack": ["Liquid Shopify", "HTML", "CSS", "Javascript", "TypeScript"]
     }

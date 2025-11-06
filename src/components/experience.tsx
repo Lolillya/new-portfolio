@@ -1,12 +1,12 @@
-import mmcmLogo from "../assets/mmcm-logo.svg";
-import chedLogo from "../assets/ched-logo.svg";
-import shopifyLogo from "../assets/react.svg"; // Placeholder, update if you have a shopify logo
-import experienceData from "../constants/const.json";
+import chedLogo from '../assets/ched-logo.svg';
+import shopifyLogo from '../assets/shopify-logo.png';
+import experienceData from '../constants/const.json';
+import ReactLogo from '../assets/react.svg';
 
 const imageMap: Record<string, string> = {
-  "Mapua Malayan Colleges Mindanao": mmcmLogo,
   CHED: chedLogo,
-  "Self-Employed": shopifyLogo,
+  'Contractual Developer': ReactLogo,
+  Freelance: shopifyLogo,
 };
 
 export const Experience = () => {
@@ -29,14 +29,16 @@ export const Experience = () => {
               </div>
               <div className="flex flex-col justify-evenly flex-1 max-w-[40rem] text-justify">
                 <div className="flex flex-col gap-2 justify-evenly">
-
                   <span className="text-4xl">{exp.company}</span>
                   <div className="flex flex-col gap-2">
                     <span className="text-lg font-semibold">{exp.role}</span>
                     <div>
                       <ul className="flex gap-5">
                         {exp.stack.map((tech: string) => (
-                          <li className="bg-surface shadow-md p-2 rounded-full text-xs" key={tech}>
+                          <li
+                            className="bg-surface shadow-md p-2 rounded-full text-xs"
+                            key={tech}
+                          >
                             {tech}
                           </li>
                         ))}
@@ -61,7 +63,10 @@ export const Experience = () => {
                     <div>
                       <ul className="flex gap-5">
                         {exp.stack.map((tech: string) => (
-                          <li className="bg-surface shadow-md p-2 rounded-full text-xs" key={tech}>
+                          <li
+                            className="bg-surface shadow-md p-2 rounded-full text-xs"
+                            key={tech}
+                          >
                             {tech}
                           </li>
                         ))}
@@ -82,7 +87,7 @@ export const Experience = () => {
                 />
               </div>
             </div>
-          )
+          ),
         )}
       </section>
     </>
