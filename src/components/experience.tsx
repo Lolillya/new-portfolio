@@ -1,11 +1,11 @@
-import chedLogo from '../assets/ched-logo.svg';
-import shopifyLogo from '../assets/shopify-logo.png';
-import experienceData from '../constants/const.json';
-import ReactLogo from '../assets/react.svg';
+import chedLogo from "../assets/ched-logo.svg";
+import shopifyLogo from "../assets/shopify-logo.png";
+import experienceData from "../constants/const.json";
+import ReactLogo from "../assets/react.svg";
 
 const imageMap: Record<string, string> = {
   CHED: chedLogo,
-  'Contractual Developer': ReactLogo,
+  "Contractual Developer": ReactLogo,
   Freelance: shopifyLogo,
 };
 
@@ -19,13 +19,13 @@ export const Experience = () => {
         </div>
         {experience.map((exp, idx) => {
           // Prefer role-based selection when multiple entries share the same company name
-          const role = (exp.role || '').toLowerCase();
+          const role = (exp.role || "").toLowerCase();
           const company = exp.company;
-          const imgSrc = role.includes('shopify')
+          const imgSrc = role.includes("shopify")
             ? shopifyLogo
-            : role.includes('game') || role.includes('backend')
-            ? ReactLogo
-            : imageMap[company] || ReactLogo;
+            : role.includes("game") || role.includes("backend")
+              ? ReactLogo
+              : imageMap[company] || ReactLogo;
 
           return idx % 2 === 0 ? (
             <div
@@ -58,7 +58,7 @@ export const Experience = () => {
                     </div>
                   </div>
                 </div>
-                <p className="text-lg">{exp.desc}</p>
+                <p className="">{exp.desc}</p>
 
                 {/* <div>
                   <Button style="1">GitHub</Button>
@@ -89,7 +89,7 @@ export const Experience = () => {
                     </div>
                   </div>
                 </div>
-                <p className="text-lg">{exp.desc}</p>
+                <p className="">{exp.desc}</p>
                 {/* <div>
                   <Button style="1">GitHub</Button>
                 </div> */}

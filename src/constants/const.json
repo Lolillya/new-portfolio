@@ -108,7 +108,7 @@
     {
       "company": "CHED",
       "role": "Frontend Developer",
-      "desc": "The CHEDx2.O Event Website is a platform created to support the CHEDx2.O IT Education Summit, a national event that brings together schools, industries, and the government to improve IT education.",
+      "desc": "Engineered a responsive event website in React (Vite), Tailwind CSS, and GSAP from Figma mockups, delivering animated UI components that served hundreds of concurrent users across mobile and desktop without performance degradation",
       "img": "@/assets/ched-logo.svg",
       "stack": [
         "Vite React",
@@ -124,7 +124,7 @@
     {
       "company": "Contractual Developer",
       "role": "Fullstack Developer",
-      "desc": "Led a team of 5 developers to build a custom inventory management system, automating invoice tracking, supplier management, and data centralization, while delivering analytics tools to support data-driven decision-making and improve operational efficiency.",
+      "desc": "Architected and shipped a full-stack inventory platform using React, .NET (C#), MySQL, and Docker with role-based access control, replacing a manual tracking process for the client's operations; designed RESTful APIs for product, user, and transaction management with containerized deployment for consistent staging-to-production parity.",
       "img": "@/assets/react.svg",
       "stack": [
         "Next.js",
@@ -137,17 +137,17 @@
       ]
     },
     {
-      "company": "Freelance",
+      "company": "Hafstaff",
       "role": "Shopify Developer",
-      "desc": "Developed Shopify e-commerce websites for PopStop (New Zealand), a pop culture collectibles store, and Closeout Connection (New York, USA), a luxury homeware retailer. Delivered responsive, SEO-optimized storefronts featuring intuitive navigation, and custom product functionality to enhance user experience and drive conversions.",
+      "desc": "Extended Shopify storefronts with custom Liquid, GraphQL, and Shopify CLI integrations that improved page load performance and checkout usability; translated Figma designs into production-ready, component-driven pages and shipped reusable component libraries that cut future feature delivery time for client projects.",
       "img": "@/assets/shopify-logo.svg",
       "stack": ["Liquid Shopify", "HTML", "CSS", "Javascript", "TypeScript"]
     },
 
     {
-      "company": "Freelance",
+      "company": "Cloudnode",
       "role": "Backend Game Developer",
-      "desc": "Developed a Web3 RPG game leveraging blockchain technology, built with NestJS, TypeScript, Prisma ORM, Docker, and tested via Postman, delivering a decentralized gaming experience with secure and scalable architecture.",
+      "desc": "Developed Node.js/TypeScript backend services and RESTful APIs powering core gameplay loops and on-chain interactions via Ethereum smart contract integration; debugged performance bottlenecks in game state management and coordinated API contracts with frontend and blockchain teams to ship seamless cross-system integration",
       "img": "@/assets/react.svg",
       "stack": [
         "Nest.js",
